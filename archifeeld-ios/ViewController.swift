@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import FontAwesome_swift
+import FBSDKCoreKit
+import FBSDKLoginKit
+
 
 /**
  Facebook Login 참고링크 : http://www.brianjcoleman.com/tutorial-how-to-use-login-in-facebook-sdk-4-0-for-swift/
@@ -17,6 +21,14 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     @IBOutlet weak var fbLoginButton: FBSDKLoginButton!
     
     
+    func loadLoginView(){
+        performSegueWithIdentifier("loginView", sender: nil)
+    }
+    
+    
+    @IBAction func doLogin(sender: UIButton) {
+        loadLoginView()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -92,6 +104,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
                 
         })
     }
+    
     
     
 }

@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497EF457A04E7ECB99FF498A /* Pods_archifeeld_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BB2A7A434CAB1FB8DA470 /* Pods_archifeeld_ios.framework */; };
+		872572931D5A62CF003C79BE /* NewsfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872572921D5A62CF003C79BE /* NewsfeedViewController.swift */; };
 		87B544E91D4B879C0049E301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B544E81D4B879C0049E301 /* AppDelegate.swift */; };
 		87B544EB1D4B879C0049E301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B544EA1D4B879C0049E301 /* ViewController.swift */; };
 		87B544EE1D4B879C0049E301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B544EC1D4B879C0049E301 /* Main.storyboard */; };
 		87B544F01D4B879C0049E301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B544EF1D4B879C0049E301 /* Assets.xcassets */; };
 		87B544F31D4B879C0049E301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B544F11D4B879C0049E301 /* LaunchScreen.storyboard */; };
-		87B544FC1D4B89670049E301 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B544FB1D4B89670049E301 /* FBSDKCoreKit.framework */; };
-		87B545011D4B90240049E301 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B544FF1D4B90240049E301 /* Bolts.framework */; };
-		87B545021D4B90240049E301 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B545001D4B90240049E301 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035BB2A7A434CAB1FB8DA470 /* Pods_archifeeld_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archifeeld_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8644BC4051597189C3103B66 /* Pods-archifeeld-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archifeeld-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-archifeeld-ios/Pods-archifeeld-ios.release.xcconfig"; sourceTree = "<group>"; };
+		872572921D5A62CF003C79BE /* NewsfeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsfeedViewController.swift; sourceTree = "<group>"; };
 		87B544E51D4B879C0049E301 /* archifeeld-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "archifeeld-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B544E81D4B879C0049E301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B544EA1D4B879C0049E301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,10 +27,7 @@
 		87B544EF1D4B879C0049E301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87B544F21D4B879C0049E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87B544F41D4B879C0049E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87B544FB1D4B89670049E301 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-4.14.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		87B544FE1D4B8F6B0049E301 /* FBBridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBBridging-Header.h"; sourceTree = "<group>"; };
-		87B544FF1D4B90240049E301 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../FacebookSDKs-iOS-4.14.0/Bolts.framework"; sourceTree = "<group>"; };
-		87B545001D4B90240049E301 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-4.14.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		AB87616E806A983722E11DE6 /* Pods-archifeeld-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archifeeld-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-archifeeld-ios/Pods-archifeeld-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,9 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B544FC1D4B89670049E301 /* FBSDKCoreKit.framework in Frameworks */,
-				87B545011D4B90240049E301 /* Bolts.framework in Frameworks */,
-				87B545021D4B90240049E301 /* FBSDKLoginKit.framework in Frameworks */,
+				497EF457A04E7ECB99FF498A /* Pods_archifeeld_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +48,7 @@
 				87B544FA1D4B89070049E301 /* Frameworks */,
 				87B544E71D4B879C0049E301 /* archifeeld-ios */,
 				87B544E61D4B879C0049E301 /* Products */,
+				8F48F9DE8D10CACE76073C0F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,13 +63,13 @@
 		87B544E71D4B879C0049E301 /* archifeeld-ios */ = {
 			isa = PBXGroup;
 			children = (
-				87B544FE1D4B8F6B0049E301 /* FBBridging-Header.h */,
 				87B544E81D4B879C0049E301 /* AppDelegate.swift */,
 				87B544EA1D4B879C0049E301 /* ViewController.swift */,
 				87B544EC1D4B879C0049E301 /* Main.storyboard */,
 				87B544EF1D4B879C0049E301 /* Assets.xcassets */,
 				87B544F11D4B879C0049E301 /* LaunchScreen.storyboard */,
 				87B544F41D4B879C0049E301 /* Info.plist */,
+				872572921D5A62CF003C79BE /* NewsfeedViewController.swift */,
 			);
 			path = "archifeeld-ios";
 			sourceTree = "<group>";
@@ -79,11 +77,18 @@
 		87B544FA1D4B89070049E301 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87B544FF1D4B90240049E301 /* Bolts.framework */,
-				87B545001D4B90240049E301 /* FBSDKLoginKit.framework */,
-				87B544FB1D4B89670049E301 /* FBSDKCoreKit.framework */,
+				035BB2A7A434CAB1FB8DA470 /* Pods_archifeeld_ios.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F48F9DE8D10CACE76073C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB87616E806A983722E11DE6 /* Pods-archifeeld-ios.debug.xcconfig */,
+				8644BC4051597189C3103B66 /* Pods-archifeeld-ios.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87B544F71D4B879C0049E301 /* Build configuration list for PBXNativeTarget "archifeeld-ios" */;
 			buildPhases = (
+				BAFB7C43750BFC198B48E23C /* [CP] Check Pods Manifest.lock */,
 				87B544E11D4B879C0049E301 /* Sources */,
 				87B544E21D4B879C0049E301 /* Frameworks */,
 				87B544E31D4B879C0049E301 /* Resources */,
+				87B8FE7CD181B4DF5D250CE0 /* [CP] Embed Pods Frameworks */,
+				22CD9EDB468D927FD455E126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +161,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22CD9EDB468D927FD455E126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-archifeeld-ios/Pods-archifeeld-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B8FE7CD181B4DF5D250CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-archifeeld-ios/Pods-archifeeld-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFB7C43750BFC198B48E23C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87B544E11D4B879C0049E301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -160,6 +216,7 @@
 			files = (
 				87B544EB1D4B879C0049E301 /* ViewController.swift in Sources */,
 				87B544E91D4B879C0049E301 /* AppDelegate.swift in Sources */,
+				872572931D5A62CF003C79BE /* NewsfeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +283,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -264,39 +322,42 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		87B544F81D4B879C0049E301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB87616E806A983722E11DE6 /* Pods-archifeeld-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "/Users/LLEEJONG/Documents/FacebookSDKs-iOS-4.14.0";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "archifeeld-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "archifeeld.archifeeld-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "archifeeld-ios/FBBridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		87B544F91D4B879C0049E301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8644BC4051597189C3103B66 /* Pods-archifeeld-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "/Users/LLEEJONG/Documents/FacebookSDKs-iOS-4.14.0";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "archifeeld-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "archifeeld.archifeeld-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "archifeeld-ios/FBBridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -319,6 +380,7 @@
 				87B544F91D4B879C0049E301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
