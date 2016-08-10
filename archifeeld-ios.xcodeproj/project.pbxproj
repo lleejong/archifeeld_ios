@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		497EF457A04E7ECB99FF498A /* Pods_archifeeld_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BB2A7A434CAB1FB8DA470 /* Pods_archifeeld_ios.framework */; };
-		872572931D5A62CF003C79BE /* NewsfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872572921D5A62CF003C79BE /* NewsfeedViewController.swift */; };
+		8714E4551D5BA25500B57734 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714E4541D5BA25500B57734 /* NewsFeedViewController.swift */; };
+		8714E4571D5BA27B00B57734 /* NewArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714E4561D5BA27B00B57734 /* NewArticleViewController.swift */; };
+		8714E4591D5BA29300B57734 /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714E4581D5BA29300B57734 /* DetailArticleViewController.swift */; };
 		87B544E91D4B879C0049E301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B544E81D4B879C0049E301 /* AppDelegate.swift */; };
 		87B544EB1D4B879C0049E301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B544EA1D4B879C0049E301 /* ViewController.swift */; };
 		87B544EE1D4B879C0049E301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B544EC1D4B879C0049E301 /* Main.storyboard */; };
@@ -19,7 +21,9 @@
 /* Begin PBXFileReference section */
 		035BB2A7A434CAB1FB8DA470 /* Pods_archifeeld_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_archifeeld_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8644BC4051597189C3103B66 /* Pods-archifeeld-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-archifeeld-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-archifeeld-ios/Pods-archifeeld-ios.release.xcconfig"; sourceTree = "<group>"; };
-		872572921D5A62CF003C79BE /* NewsfeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsfeedViewController.swift; sourceTree = "<group>"; };
+		8714E4541D5BA25500B57734 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		8714E4561D5BA27B00B57734 /* NewArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewArticleViewController.swift; sourceTree = "<group>"; };
+		8714E4581D5BA29300B57734 /* DetailArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
 		87B544E51D4B879C0049E301 /* archifeeld-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "archifeeld-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B544E81D4B879C0049E301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87B544EA1D4B879C0049E301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +73,9 @@
 				87B544EF1D4B879C0049E301 /* Assets.xcassets */,
 				87B544F11D4B879C0049E301 /* LaunchScreen.storyboard */,
 				87B544F41D4B879C0049E301 /* Info.plist */,
-				872572921D5A62CF003C79BE /* NewsfeedViewController.swift */,
+				8714E4541D5BA25500B57734 /* NewsFeedViewController.swift */,
+				8714E4561D5BA27B00B57734 /* NewArticleViewController.swift */,
+				8714E4581D5BA29300B57734 /* DetailArticleViewController.swift */,
 			);
 			path = "archifeeld-ios";
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			files = (
 				87B544EB1D4B879C0049E301 /* ViewController.swift in Sources */,
 				87B544E91D4B879C0049E301 /* AppDelegate.swift in Sources */,
-				872572931D5A62CF003C79BE /* NewsfeedViewController.swift in Sources */,
+				8714E4571D5BA27B00B57734 /* NewArticleViewController.swift in Sources */,
+				8714E4591D5BA29300B57734 /* DetailArticleViewController.swift in Sources */,
+				8714E4551D5BA25500B57734 /* NewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

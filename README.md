@@ -1,4 +1,4 @@
-#Archifeeld ios Application
+#Archifeeld iOS Application
 
 ## Installation
 

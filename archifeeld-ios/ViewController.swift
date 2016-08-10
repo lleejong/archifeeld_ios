@@ -21,13 +21,14 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     @IBOutlet weak var fbLoginButton: FBSDKLoginButton!
     
     
-    func loadLoginView(){
-        performSegueWithIdentifier("loginView", sender: nil)
+    func showMainView(){
+        performSegueWithIdentifier("sgMainView", sender: nil)
+        
     }
     
     
     @IBAction func doLogin(sender: UIButton) {
-        loadLoginView()
+        showMainView()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
