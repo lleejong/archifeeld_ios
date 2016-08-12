@@ -10,5 +10,5 @@ target 'archifeeld-ios' do
 	pod 'FBSDKCoreKit'
 	pod 'FBSDKLoginKit'
 	pod 'FBSDKShareKit'
-
+	pod ‘Alamofire’
 end
