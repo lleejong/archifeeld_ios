@@ -33,12 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        var navigationBarAppearance = UINavigationBar.appearance();
-        navigationBarAppearance.tintColor = UIColor.whiteColor()
-        navigationBarAppearance.barTintColor = uiColorFromHex(0x535353)
-        navigationBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         
-        //status bar 어둡게
+        //let feedController = FeedViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        //let navigationController = UINavigationController(rootViewController: feedController)
+        //window?.rootViewController = navigationController
+        
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().barTintColor = uiColorFromHex(0x535353)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
         
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
